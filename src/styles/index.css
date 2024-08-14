@@ -1,12 +1,127 @@
+/* Reset de estilo y configuración básica del body */
+body {
+    background-image: url(https://c.wallhere.com/photos/c2/ae/death_note_death_note_ryuk_god_of_death-572897.jpg!d);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Creepster', cursive;
+    color: white;
+}
 
-/* 
+/* Estilos del contenedor principal */
+.contenedor {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 20px white;
+    padding: 5%;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    overflow: hidden;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+/* Estilos del título (h1) e imagen */
+h1 {
+    color: white;
+    margin: 0;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
 
-*/
+img {
+    width: 100%;
+    height: auto;
+    max-height: 5rem;
+    display: block;
+    margin: 0 auto 2rem auto;
+}
+
+/* Estilos para el campo de entrada de texto */
+input[type='text'] {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Estilos de la lista de tareas */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 300px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+/* Estilos de cada elemento de la lista */
+li {
+    font-size: 1.25rem;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Verdana';
+    color: white;
+    gap: 0.5rem;
+}
+
+li.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+/* Estilos para el contenedor de los botones (editar y eliminar) */
+.botones {
+    display: flex;
+    gap: 0.5rem;
+    flex-shrink: 0;
+}
+
+/* Estilos generales para los botones */
+button {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+/* Estilo del checkbox */
+.checklist {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+/* Estilos del pie de página */
+footer {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    color: white;
+}
+
+/* Ajuste del color del checkbox */
+input[type='checkbox'] {
+    accent-color: black; 
+}
