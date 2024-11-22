@@ -1,42 +1,56 @@
-# Hello World with React boilerplate
+# To-Do List - Versión Death Note
 
-Start coding a react application
+Un elegante To-Do List inspirado en el icónico estilo del anime **Death Note**. Este proyecto permite gestionar tareas con un diseño oscuro y minimalista que refleja la atmósfera del anime.
 
-> If you are working locally instead of using codespaces or gitpod, please follow [local installation steps](#local-installation-skip-if-you-are-working-on-codespaces-or-gitpod) and come back to this part of the readme.
+## Capturas de Pantalla
 
-## How to start coding?
+### Pantalla Inicial
+![Pantalla Inicial](./img-readme/inicial.png)
 
-- Install the packages with `$ npm install`.
-- Run the webpack server with `$ npm run start`
+### Añadir Tareas
+![Añadir Tareas](./img-readme/tareacreada.png)
 
-You can update the `styles/index.css` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
+### Checklist
+![Checklist](./img-readme/check.png)
 
-## Local Installation (skip if you are working on codespaces or gitpod)
+### Editar Tareas
+![Editar Tareas](./img-readme/editar.png)
 
-Download the boilerplate using git
+## Funcionalidades
 
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
+- **Añadir tareas**: Escribe una nueva tarea y agrégala a la lista.
+- **Editar tareas**: Modifica las tareas existentes directamente en la interfaz.
+- **Checklist**: Marca las tareas completadas y automáticamente se tachan.
+- **Eliminar tareas**: Borra las tareas que ya no necesitas.
+- **Estilo único**: Inspirado en el anime *Death Note*, con un diseño oscuro y detalles característicos.
 
-## Publish your website!
+## Tecnologías Utilizadas
 
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
+- **React**: Para gestionar la interfaz y las funcionalidades dinámicas.
+- **CSS**: Para estilizar el diseño y replicar el ambiente de *Death Note*.
 
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
+## Cómo Ejecutarlo
 
-## Other features
+1. Clona este repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/AaronCuadrado/ToDoList-DeathNote.git
 
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
+2. Navega al directorio del proyecto:
+   ```bash
+   cd ToDoList-DeathNote
 
-### Contributors
+3. Instala las dependencias necesarias:
+   ```bash
+   npm install
 
-This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
+4. Inicia la aplicacion:
+   ```bash
+   npm start
 
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
+## Autor
+
+**Aaron Cuadrado Toral**  
+Desarrollador Full Stack apasionado por crear proyectos visuales y funcionales.
+
+- **GitHub**: [AaronCuadrado](https://github.com/AaronCuadrado)  
+- **LinkedIn**: [Aaron Cuadrado Toral](https://www.linkedin.com/in/aaroncuadrado/)  
